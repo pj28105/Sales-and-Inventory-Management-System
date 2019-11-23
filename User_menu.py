@@ -19,22 +19,22 @@ class User:
     def user_mainmenu(self,a,b):
         self.mainframe = LabelFrame(self.mainw, width=800, height=140, bg="#f7f7f7")
         self.mainframe.place(x=330, y=120)
-        mi = PhotoImage(file="items.png")
+        mi = PhotoImage(file="images/items.png")
         mi = mi.subsample(a, b)
         self.aitems = Button(self.mainframe, text="Items",bd=5,font="roboto 11 bold",bg="cyan", image=mi, compound=TOP,command=self.builditemtable)
         self.aitems.image = mi
         self.aitems.place(x=260, y=17)
-        mi = PhotoImage(file="invoice2.png")
+        mi = PhotoImage(file="images/invoice2.png")
         mi = mi.subsample(a,b)
         self.aitems = Button(self.mainframe, text="Invoice",bd=5,bg="cyan",font="roboto 11 bold", image=mi, compound=TOP,command=self.make_invoice)
         self.aitems.image = mi
         self.aitems.place(x=62, y=17)
-        mi = PhotoImage(file="change1.png")
+        mi = PhotoImage(file="images/change1.png")
         mi = mi.subsample(a, b)
         self.changeuser = Button(self.mainframe, text="Sign out",bd=5,bg="cyan",font="roboto 11 bold", image=mi, compound=TOP)
         self.changeuser.image = mi
         self.changeuser.place(x=460, y=17)
-        mi = PhotoImage(file="Door_Out-512.png")
+        mi = PhotoImage(file="images/Door_Out-512.png")
         mi = mi.subsample(a, b)
         self.logout = Button(self.mainframe, text="Quit",bd=5,bg="cyan",font="roboto 11 bold", image=mi, compound=TOP)
         self.logout.image = mi

@@ -20,32 +20,32 @@ class Admin:
     def admin_mainmenu(self,a,b):
          self.mainframe = LabelFrame(self.mainw, width=1200, height=145,bg="#f7f7f7")
          self.mainframe.place(x=100, y=100)
-         mi = PhotoImage(file="accounts.png")
+         mi = PhotoImage(file="images/accounts.png")
          mi = mi.subsample(a,b)
          self.accounts = Button(self.mainframe, text="Profiles",font="roboto 11 bold",bd=5, image=mi, compound=TOP,command=self.buildusertable)
          self.accounts.image = mi
          self.accounts.place(x=655, y=27)
-         mi = PhotoImage(file="Door_Out-512.png")
+         mi = PhotoImage(file="images/Door_Out-512.png")
          mi = mi.subsample(a,b)
          self.logout = Button(self.mainframe, text="Quit",bd=5,font="roboto 11 bold", image=mi, compound=TOP)
          self.logout.image = mi
          self.logout.place(x=1050, y=27)
-         mi = PhotoImage(file="change1.png")
+         mi = PhotoImage(file="images/change1.png")
          mi = mi.subsample(a,b)
          self.changeuser = Button(self.mainframe, text="Sign out",bd=5,font="roboto 11 bold", image=mi, compound=TOP)
          self.changeuser.image = mi
          self.changeuser.place(x=855, y=27)
-         mi = PhotoImage(file="items.png")
+         mi = PhotoImage(file="images/items.png")
          mi = mi.subsample(a,b)
          self.items = Button(self.mainframe, text="Items",bd=5, image=mi,font="roboto 11 bold", compound=TOP,command=self.additems)
          self.items.image = mi
          self.items.place(x=47, y=27)
-         mi = PhotoImage(file="inventory.png")
+         mi = PhotoImage(file="images/inventory.png")
          mi = mi.subsample(a,b)
          self.stocks = Button(self.mainframe, text="Inventory",bd=5, image=mi,font="roboto 11 bold", compound=TOP,command=self.buildprodtable)
          self.stocks.image = mi
          self.stocks.place(x=255, y=27)
-         mi = PhotoImage(file="sales.png")
+         mi = PhotoImage(file="images/sales.png")
          mi=mi.subsample(a,b)
          self.sales = Button(self.mainframe, text="Sales",bd=5,font="roboto 11 bold", image=mi, compound=TOP,command=self.buildsalestable)
          self.sales.image = mi

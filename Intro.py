@@ -20,7 +20,7 @@ class splash:
       y = (screen_height / 2) - (height / 2)
       self.splashminw.geometry("%dx%d+%d+%d" % (width, height, x, y))
       self.splashminw.resizable(0,0)
-      path = "my.jpg"
+      path = "images/my.jpg"
       img = ImageTk.PhotoImage(Image.open(path))
       main=LabelFrame(self.splashminw, width=890, height=560,bg="snow",relief="sunken")
       main.place(x=55,y=70)
