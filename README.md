@@ -16,9 +16,9 @@
 
 
 #### Requirements -:
-`Operating Systems -: Windows`
+`Operating Systems -: Windows` <br />
 `python -v 3`
 
 #### How to run it 
-`./venv/Scripts/activate`
+`./venv/Scripts/activate` <br />
 `Python 171b174.py `
