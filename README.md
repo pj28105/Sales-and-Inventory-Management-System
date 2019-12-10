@@ -20,5 +20,5 @@
 *	python -v 3 
 
 #### How to run it 
-*./venv/Scripts/activate
+* ./venv/Scripts/activate
 * Python 171b174.py 
