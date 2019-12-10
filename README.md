@@ -15,12 +15,13 @@
 *	Check Available Products
 
 
-#### Requirements -:
-***
-`Operating Systems -: Windows <br />
- python -v 3`
-
-#### How to run it 
-***
-`./venv/Scripts/activate <br />
+### Requirements -:
+```
+Operating System -: Windows <br />
+python -v 3
+```
+### How to run it 
+```
+./venv/Scripts/activate
 Python 171b174.py `
+```
