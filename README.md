@@ -5,7 +5,7 @@
 *	This software works on two levels of users, each category has different levels of rights to update the data & maintenance of masters like below.
 
 ##### For Admin (Owner)
-*	Add/Remove/Edit Product masters
+*	Add/Remove/Edit Products
 *	Track Inventory
 *	Check and review Sales data
 *	Add/Remove Transactional users (Staff) 
@@ -16,10 +16,9 @@
 
 
 #### Requirements -:
-` *	Operating Systems -: Windows
-  *	python -v 3 `
-
+*	Operating Systems -: Windows
+*	python -v 3 
 
 #### How to run it 
-` *./venv/Scripts/activate
- *Python 171b174.py `
+*./venv/Scripts/activate
+* Python 171b174.py 
