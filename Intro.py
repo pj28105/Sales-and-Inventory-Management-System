@@ -33,7 +33,7 @@ class splash:
       Label(main, text="Enroll No-: 171B174",font="roboto 16 bold",bg="snow").place(x=445+5, y=260)
       Label(main, text="Batch-: B5", font="roboto 16 bold", bg="snow").place(x=450, y=310)
       Label(main, text="Email Id-: piyushjain6369@gmail.com",font="roboto 16 bold",bg="snow").place(x=445+5, y=360)
-      Label(main, text="Ph.no:- ***REMOVED***",font="roboto 16 bold",bg="snow").place(x=445+5, y=410)
+      Label(main, text="Ph.no:- Deleted",font="roboto 16 bold",bg="snow").place(x=445+5, y=410)
       pic.bind('<Motion>', lambda event: self.splashminw.destroy())
      # self.splashminw.after(10000,lambda :self.splashminw.destroy())
       self.splashminw.mainloop()
