@@ -21,8 +21,8 @@
 ```
 Operating System -: Windows
 python -v 3
-
 ```
+
 # Setup 
 ```
 pip install -r requirements.txt
@@ -33,5 +33,5 @@ pip install -r requirements.txt
 python main.py
 ```
 
-# Features / Bugs / Queries
-Project features, bugs and queries are being tracked [here](https://github.com/pj28105/Sales-and-Inventory-Management-System/issues).
+# Features / Queries
+Project features and queries are being tracked [here](https://github.com/pj28105/Sales-and-Inventory-Management-System/issues).
