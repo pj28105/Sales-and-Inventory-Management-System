@@ -11,16 +11,11 @@ from tkinter import messagebox
 from Userlogin import Login
 from Admin_menu import Admin
 from User_menu import User
-from Intro import splash
 
 # MAIN WINDOW
-class Main(splash,Login,Admin,User):
+class Main(Login,Admin,User):
 
     def __init__(self):
-        global b
-        if b==0:
-            super().__init__()
-            b=1
         Login.__init__(self)
         self.loginw.mainloop()
         self.loginw.state('withdraw')  # LOGIN WINDOW EXITS
@@ -104,7 +99,6 @@ class Main(splash,Login,Admin,User):
 
 
 if __name__ == '__main__':
-    b=0
     w = Main()
     w.base.commit()
     w.mainw.mainloop()
