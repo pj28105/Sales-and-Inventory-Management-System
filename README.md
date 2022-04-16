@@ -27,7 +27,11 @@ python -v 3
 ```
 pip install -r requirements.txt
 ```
+
 # Execution
 ```
 python main.py
 ```
+
+# Bugs / Issues
+Project bugs and queries are being tracked [here](https://github.com/pj28105/Sales-and-Inventory-Management-System/issues).
