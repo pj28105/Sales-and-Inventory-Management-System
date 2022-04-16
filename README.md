@@ -19,9 +19,13 @@
 ```
 Operating System -: Windows
 python -v 3
+
 ```
-# How to run it 
+# Setup 
 ```
-./venv/Scripts/activate
-python 171b174.py
+pip install -r requirements.txt
+```
+# Execution
+```
+python main.py
 ```
